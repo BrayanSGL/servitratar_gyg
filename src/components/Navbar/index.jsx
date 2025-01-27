@@ -8,7 +8,7 @@ function Navbar() {
   const activeStyle = "underline underline-offset-4";
 
   return (
-    <nav className="flex justify-between items-center fixed z-10 top-0 w-full py-5 px-8 text-sm font-light">
+    <nav className="flex justify-between items-center fixed z-10 top-0 w-full py-5 px-8 text-sm font-light" style={{ backgroundColor: "rgba(255, 255, 255, 0.9)" }}>
       <ul className="flex items-center gap-3">
         <li className="font-semibold text-lg">
           <NavLink to="/">Servitratar G&G</NavLink>
