@@ -1,8 +1,10 @@
+import Layout from "../../components/Layout";
+
 function Home() {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <Layout>
+      <h1 className="text-4xl font-bold">Home</h1>
+    </Layout>
   );
 }
 

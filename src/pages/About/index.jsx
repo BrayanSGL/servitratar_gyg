@@ -1,8 +1,10 @@
+import Layout from "../../components/Layout";
+
 function About() {
   return (
-    <div>
-      <h1>About</h1>
-    </div>
+    <Layout>
+      <h1 className="text-4xl font-bold">About</h1>
+    </Layout>
   );
 }
 
